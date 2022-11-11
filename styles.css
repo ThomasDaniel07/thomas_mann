@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #0f0f0f;
+}
+.main {
+  margin: auto;
+}
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+.contTextPresentation {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.contTextPresentation {
+  text-align: justify;
+}
+.contTextPresentation > h1 {
+  font-size: 4em;
+  /* border-bottom: 2px solid #d60404; */
+  margin-bottom: 10px;
+  border-bottom: 2px solid red;
+}
+.contTextPresentation > p {
+}
+.contTextPresentation > i {
+  position: relative;
+  font-size: 2em;
+  top: 30px;
+  right: 60px;
+  color: red;
+  animation: UpToDown 500ms infinite alternate-reverse;
+  background-color: rgb(255, 152, 152);
+  padding: 10px;
+  border-radius: 50%;
+}
+@keyframes UpToDown {
+  from {
+      top: 30px;
+  }to {
+      top: 60px;
+  }
+}
+.presentation > img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 55%;
+  object-position: right;
+  object-fit: contain;
+}
+
+.life{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contTextPresentation > h2 {
+  font-size: 3em;
+  /* border-bottom: 2px solid #d60404; */
+  margin-bottom: 10px;
+  border-bottom: 2px solid red;
+  margin-bottom: 20px;
+}
+.pensamiento {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.pensamiento > img {
+  border-radius: 20px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 0px red;
+}
+.obras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.obras {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.obras ul > li {
+  background-color: #FFF;
+  margin: 20px 0;
+  box-shadow: 0 0 10px #CCC;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+}
+
+
+
